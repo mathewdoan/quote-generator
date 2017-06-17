@@ -6,6 +6,7 @@
 	<title> Quote GEN2.0 </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
@@ -13,25 +14,22 @@
 	<div class = "Quote-Background">
 		<div class = "Quote-text" id="quote-quote"></div>
 		<div class = "author">
-			- <span id = "quote-author"></span>
+			<span id = "quote-author"></span>
 		</div>
-		<div class = "tweet" id="logo">
-			<i href="#" class="fa fa-twitter"></i>
-
-		</div>
+		
 	</div>
 
 	<div id ="container">
 	<div class = "new-buttons">
-		<div class = "new-quote">
+		<div class = "new-quote" style="text-align: center;">
 		<button onclick="newQuote()" class="button" id="button1"> New Quote </a></button>
 		</div>
 
-		<div class = "new-author">
-		<button onclick="newAuthor()" class="button" id = "button2"> New Author </a></button>
-		</div>
+
 	</div>
 	</div>
+	<div class = "tweet" id="logo"><i onclick="tweetThis()" href="#" class="fa fa-twitter"></i></div>
+
 	<div class = "container">
 		<div id = "copyright">
  		Mathew Doan World Wide
