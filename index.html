@@ -6,54 +6,38 @@
 	<title> Quote GEN2.0 </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-
-
-
 <body>
-	<div class = "title"> <h1> Quote generator 2.0 </div>
-
-
+	<div class = "title"> <h1> Quote Generator 2.0 </div>
 	<div class = "Quote-Background">
-		<div class = "Quote-text">
-
-		</div>
-
-
+		<div class = "Quote-text" id="quote-quote"></div>
 		<div class = "author">
 			- <span id = "quote-author"></span>
 		</div>
-
-		<div class = "tweet">
-			<a href="#" class="fa fa-twitter"></a>
+		<div class = "tweet" id="logo">
+			<i href="#" class="fa fa-twitter"></i>
 
 		</div>
-
 	</div>
 
+	<div id ="container">
 	<div class = "new-buttons">
 		<div class = "new-quote">
-		<button class="button" id="button1"> New Quote </a></button>
+		<button onclick="newQuote()" class="button" id="button1"> New Quote </a></button>
 		</div>
 
 		<div class = "new-author">
-		<button class="button" id = "button2"> New Author </a></button>
+		<button onclick="newAuthor()" class="button" id = "button2"> New Author </a></button>
 		</div>
-
-
-
-
 	</div>
-
-
-
-	<footer> Mathew Doan World Wide</footer>
-
-
-
-	<script type="text/javascript" src="script.js"></script>
-
+	</div>
+	<div class = "container">
+		<div id = "copyright">
+ 		Mathew Doan World Wide
+	</div>
+		</div>
+	<script type="text/javascript" src="script.js">
+	</script>
 </body>
-
 </html>
